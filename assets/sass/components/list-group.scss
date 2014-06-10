@@ -67,6 +67,15 @@ category: Components - List group
 ```
 */
 
+.list-group-item:hover {
+  @include light-hatching();
+}
+
+.list-group-item.active, .list-group-item.active:hover {
+  @include dark-hatching();
+  border: 1px solid $mine;
+}
+
 
 
 /*doc

@@ -15,3 +15,8 @@ category: Components - Jumbotron
 </div>
 ```
 */
+
+.jumbotron {
+  @include light-hatching();
+  border: 1px solid $dust;
+}

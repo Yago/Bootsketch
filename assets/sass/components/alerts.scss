@@ -23,6 +23,15 @@ category: Components - Alerts
 ```
 */
 
+.alert-success {
+  @include light-hatching();
+  border-color: $dust;
+}
+
+.alert-info {
+  @include dark-hatching();
+  border-color: $black;
+}
 
 
 /*doc

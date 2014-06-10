@@ -18,7 +18,6 @@ category: Components - Labels
 */
 
 
-
 /*doc
 ---
 title: Variations
@@ -35,3 +34,12 @@ category: Components - Labels
 <span class="label label-danger">Danger</span>
 ```
 */
+
+.label-default {
+  @include light-hatching();
+  border: 1px solid $dust;
+}
+
+.label-primary {
+  @include dark-hatching();
+}

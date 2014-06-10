@@ -30,6 +30,10 @@ category: Components - Input groups
 ```
 */
 
+.input-group-addon {
+  @include dark-hatching();
+}
+
 
 
 /*doc
