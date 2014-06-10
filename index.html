@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Wirestrap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="build/css/wirestrap.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Wirestrap example</h1>
+        <p>
+          Wirestrap is a little Bootstrap 3 theme for wireframing web project. Unlike the Bootstrap base theme, Wirestrap provide a sketch render to remove all "design fealing" when we present it to client or during user test.
+        </p>
+        <p><a href="https://github.com/Yago/wirestrap" class="btn btn-primary btn-lg" role="button">Github</a></p>
+      </div>
+      
+      <br>
+      <h2>Typography</h2>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>My title level 1</h1>
+          <h2>My title level 2</h2>
+          <h3>My title level 3</h3>
+          <h4>My title level 4</h4>
+          <h5>My title level 5</h5>
+          <h6>My title level 6</h6>
+          <br>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Confecta res esset. Si autem id non concedatur, non continuo vita beata tollitur. Summae mihi videtur inscitiae. Sed haec omittamus; Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. Duo Reges: constructio interrete.
+          </p>
+          <small>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. An est aliquid, quod te sua sponte delectet? Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Re mihi non aeque satisfacit, et quidem locis pluribus.
+          </small>
+        </div>
+        <div class="col-sm-6">
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="text-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="text-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="text-danger">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="bg-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="bg-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="bg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="bg-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="bg-danger">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <br>
+          <blockquote>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. An est aliquid, quod te sua sponte delectet? Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Re mihi non aeque satisfacit, et quidem locis pluribus.
+            </p>
+            <small>
+              Eddard Stark, lord of Winterfel
+            </small>
+          </blockquote>
+        </div>
+      </div>
+
+      
+      <br>
+      <h2>Buttons</h2>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <p><button type="button" class="btn btn-default">Default</button></p>
+          <p><button type="button" class="btn btn-primary">Primary</button></p>
+          <p>
+            <button type="button" class="btn btn-primary btn-lg active">Active</button>
+            <button type="button" class="btn btn-default btn-lg active">Active</button>
+          </p>
+          <p>
+            <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Disabled</button>
+            <button type="button" class="btn btn-default btn-lg" disabled="disabled">Disabled</button>
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <p><button type="button" class="btn btn-default btn-lg">Large</button> <button type="button" class="btn btn-primary btn-lg">Large</button></p>
+          <p><button type="button" class="btn btn-default">Normal</button> <button type="button" class="btn btn-primary">Normal</button></p>
+          <p><button type="button" class="btn btn-default btn-sm">Small</button> <button type="button" class="btn btn-primary btn-sm">Small</button></p>
+          <p><button type="button" class="btn btn-default btn-xs">Extra small</button> <button type="button" class="btn btn-primary btn-xs">Extra small</button></p>
+        </div>
+      </div>
+
+      <br><br>
+      <h2>Forms</h2>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <form role="form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">File input</label>
+              <input type="file" id="exampleInputFile">
+              <p class="help-block">Example block-level help text here.</p>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Check me out
+              </label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+        <div class="col-sm-6">
+          <form class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Remember me
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sign in</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <br><br>
+      <h2>Tables</h2>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>Doe</td>
+                <td>@jdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Walter</td>
+                <td>Smith</td>
+                <td>@wsm</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br>
+
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>Doe</td>
+                <td>@jdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Walter</td>
+                <td>Smith</td>
+                <td>@wsm</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Edmure</td>
+                <td>Fish</td>
+                <td>@tul</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col-sm-6">
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Column heading</th>
+                <th>Column heading</th>
+                <th>Column heading</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="active">
+                <td>1</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr class="success">
+                <td>3</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr class="info">
+                <td>5</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr class="warning">
+                <td>7</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr class="danger">
+                <td>9</td>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Badge</h2>
+          <hr>
+          <ul class="nav nav-pills">
+            <li class="active"><a href="#">Home <span class="badge">42</span></a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Messages <span class="badge">3</span></a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h2>Input group</h2>
+          <hr>
+          <div class="input-group">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" placeholder="Username">
+          </div>
+
+          <br>
+
+          <div class="input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-addon">.00</span>
+          </div>
+
+          <br>
+
+          <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class="form-control">
+            <span class="input-group-addon">.00</span>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <h2>Labels</h2>
+          <hr>
+          <p><span class="label label-default">Label default</span></p>
+          <p><span class="label label-primary">Label primary</span></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <br><br>
+          <h2>Panels</h2>
+          <hr>
+          <div class="panel panel-default">
+            <div class="panel-heading">Panel heading</div>
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid igitur, inquit, eos responsuros putas? Sed residamus.</p>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <br><br>
+          <h2>Well</h2>
+          <hr>
+          <div class="well">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum ageremus, inquit, vitae beatum et eundem supremum diem, scribebamus haec. Quae cum magnifice primo dici viderentur, considerata minus probabantur. Videsne, ut haec concinant? Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Quis contra in illa aetate pudorem, constantiam, etiamsi sua nihil intersit, non tamen diligat? Omnia contraria, quos etiam insanos esse vultis. Nam quid possumus facere melius? Duo Reges: constructio interrete.
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+      <h2>Navbars</h2>
+      <hr>
+
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+
+          <!-- Collect the nav links -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+
+          <!-- Collect the nav links -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+
+    </div>
+
+    <br><br><br>
+
+    <script src="build/js/vendors.min.js"></script>
+  </body>
+</html>
