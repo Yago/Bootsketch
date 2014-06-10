@@ -65,6 +65,21 @@ category: Components - Nav
 */
 
 
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  @include dark-hatching();
+  border: 1px solid $mine;
+}
+
+.nav-pills>li>a {
+  border: 1px solid $white;
+}
+
+.nav-pills>li>a:hover {
+  @include light-hatching();
+  border: 1px solid $dust;
+  box-sizing: border-box;
+}
+
 
 /*doc
 ---

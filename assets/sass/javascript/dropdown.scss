@@ -50,6 +50,10 @@ category: JavaScript - Dropdown
 ```
 */
 
+.btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.btn-primary.dropdown-toggle {
+  @include dark-hatching();
+}
+
 
 /*doc
 ---

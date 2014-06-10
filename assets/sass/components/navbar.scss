@@ -36,6 +36,9 @@ category: Components - Navbar
 ```
 */
 
+.navbar-default {
+  @include light-hatching();
+}
 
 
 /*doc

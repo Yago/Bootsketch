@@ -44,7 +44,16 @@ category: Components - Panels
 ```
 */
 
+.panel {
+  border-color: $silver !important;
+}
 
+.panel-heading {
+  @include light-hatching();
+  background-color: #f9f9f9 !important;
+  color: $mine !important;
+  border-color: $silver !important;
+}
 
 /*doc
 ---
@@ -63,7 +72,9 @@ category: Components - Panels
 ```
 */
 
-
+.panel-footer {
+  @include light-hatching();
+}
 
 /*doc
 ---
