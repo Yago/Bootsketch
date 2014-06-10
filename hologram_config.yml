@@ -1,0 +1,22 @@
+source: assets
+destination: styleguide
+documentation_assets: bower_components/Cortana
+
+dependencies:
+  - build/js
+  - build/css
+  - bower_components/bootstrap-sass-official/vendor/assets/fonts
+
+# To have a custom index page build with your README.md
+index: README
+
+# List all css to include for the styleguide render examples
+css_include:
+  - 'css/wirestrap.css'
+
+# List all js to include for the styleguide render examples
+js_include:
+  - 'js/vendors.min.js'
+
+# String who is used to split the category name and create category wrapper
+name_scope: ' - '

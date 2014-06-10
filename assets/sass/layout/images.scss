@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*doc
+---
+title: Images
+name: a-images
+category: Layout - Images
+---
+
+
+```html_example
+<img src="http://lorempixel.com/700/400/cats" alt="Some cats image">
+```
+*/
+
+
+
+/*doc
+---
+title: Figure
+name: b-figure
+category: Layout - Images
+---
+
+
+```html_example
+<figure>
+  <img src="http://lorempixel.com/700/400/cats" alt="Some cats image">
+  <figcaption>Note : Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+</figure>
+```
+*/
+
+
+
+/*doc
+---
+title: Images shapes
+name: c-images-shape
+category: Layout - Images
+---
+
+```html_example
+<img src="http://lorempixel.com/150/150/cats" alt="Some cats image" class="img-rounded">
+<img src="http://lorempixel.com/150/150/cats" alt="Some cats image" class="img-circle">
+<img src="http://lorempixel.com/150/150/cats" alt="Some cats image" class="img-thumbnail">
+```
+*/

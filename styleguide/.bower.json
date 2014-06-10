@@ -1,0 +1,27 @@
+{
+  "name": "Cortana",
+  "version": "1.1.1",
+  "ignore": [
+    "**/.*",
+    "gulpfile.js",
+    "assets",
+    "package.json"
+  ],
+  "devDependencies": {
+    "jquery": "1.10.*",
+    "Slidebars": "~0.9.4",
+    "sticky-kit": "~1.0.4",
+    "typeahead.js": "~0.9.3",
+    "hogan": "~3.0.0"
+  },
+  "homepage": "https://github.com/Yago31/Cortana",
+  "_release": "1.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.1",
+    "commit": "8baf679e5d3fa70a70bdddd50226aca1b11a5a62"
+  },
+  "_source": "git://github.com/Yago31/Cortana.git",
+  "_target": "~1.1.1",
+  "_originalSource": "Cortana"
+}

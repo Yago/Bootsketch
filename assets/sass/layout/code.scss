@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Inline code
+name: a-inline-code
+category: Layout - Code
+---
+
+```html_example
+For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+```
+*/
+
+/*doc
+---
+title: User input
+name: b-user-input
+category: Layout - Code
+---
+
+```html_example
+To switch directories, type <kbd>cd</kbd> followed by the name of the directory.
+```
+*/
+
+/*doc
+---
+title: Code block
+name: c-code-block
+category: Layout - Code
+---
+
+```html_example
+<pre>&lt;p&gt;Paragraph content...&lt;/p&gt;</pre>
+```
+*/
+
+.hello {color: red;}

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Dropdown button
+name: a-dropdown-button
+category: JavaScript - Dropdown
+---
+
+```html_example
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+```
+*/
+
+
+
+/*doc
+---
+title: Split dropdown button
+name: b-split-dropdown-button
+category: JavaScript - Dropdown
+---
+
+```html_example
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Action</button>
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+```
+*/
+
+
+/*doc
+---
+title: Sizes
+name: c-size
+category: JavaScript - Dropdown
+---
+
+```html_example
+<div class="btn-group">
+  <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+    Large button <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+
+<br><br>
+
+<div class="btn-group">
+  <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    Small button <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+
+<br><br>
+
+<div class="btn-group">
+  <button class="btn btn-primary btn-xs dropdown-toggle" type="button" data-toggle="dropdown">
+    Extra small button <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+```
+*/

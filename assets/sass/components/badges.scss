@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Default badge
+name: a-badge
+category: Components - Badges
+---
+
+```html_example
+<a href="#">Inbox <span class="badge">42</span></a>
+```
+*/
+
+
+
+/*doc
+---
+title: Nav states
+name: b-nav-states
+category: Components - Badges
+---
+
+```html_example
+<ul class="nav nav-pills">
+  <li class="active"><a href="#">Home <span class="badge">42</span></a></li>
+  <li><a href="#">Profile</a></li>
+  <li><a href="#">Messages <span class="badge">3</span></a></li>
+</ul>
+```
+*/

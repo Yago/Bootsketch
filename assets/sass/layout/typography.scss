@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Titles
+name: a-titles
+category: Layout - Typography
+---
+
+```html_example
+<h1>My title level 1</h1>
+<h2>My title level 2</h2>
+<h3>My title level 3</h3>
+<h4>My title level 4</h4>
+<h5>My title level 5</h5>
+<h6>My title level 6</h6>
+```
+*/
+
+
+
+/*doc
+---
+title: Lead
+name: b-lead
+category: Layout - Typography
+---
+
+```html_example
+<p class="lead">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius.
+</p>
+```
+*/
+
+
+/*doc
+---
+title: Paragraphs
+name: c-paragraphs
+category: Layout - Typography
+---
+
+```html_example
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. An est aliquid, quod te sua sponte delectet? Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Re mihi non aeque satisfacit, et quidem locis pluribus. Neque solum ea communia, verum etiam paria esse dixerunt. Sed haec omittamus; Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Duo Reges: constructio interrete. Re mihi non aeque satisfacit, et quidem locis pluribus.
+</p>
+```
+*/
+
+/*doc
+---
+title: Contextual color
+name: d-context-color
+category: Layout - Typography
+---
+
+```html_example
+<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="text-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="text-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="text-danger">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+```
+*/
+
+/*doc
+---
+title: Contextual background
+name: e-context-background
+category: Layout - Typography
+---
+
+```html_example
+<p class="bg-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="bg-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="bg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="bg-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="bg-danger">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+```
+*/
+
+
+
+/*doc
+---
+title: Blockquote
+name: f-blockquote
+category: Layout - Typography
+---
+
+```html_example
+<blockquote>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. An est aliquid, quod te sua sponte delectet? Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Re mihi non aeque satisfacit, et quidem locis pluribus.
+  </p>
+  <small>
+    Eddard Stark, lord of Winterfel
+  </small>
+</blockquote>
+```
+
+##Inverse
+
+```html_example
+<blockquote class="blockquote-reverse">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. An est aliquid, quod te sua sponte delectet? Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Re mihi non aeque satisfacit, et quidem locis pluribus.
+  </p>
+  <small>
+    Eddard Stark, lord of Winterfel
+  </small>
+</blockquote>
+```
+*/
+
+
+/*doc
+---
+title: Small
+name: g-small
+category: Layout - Typography
+---
+
+```html_example
+<small>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. An est aliquid, quod te sua sponte delectet? Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Re mihi non aeque satisfacit, et quidem locis pluribus.
+</small>
+```
+*/
+
+
+/*doc
+---
+title: Text elements
+name: h-text-element
+category: Layout - Typography
+---
+
+```html_example
+<p>
+   The <a href="#">link element</a> example<br>
+   The <abbr>abbreviation element</abbr> and <abbr title="Title text">abbr element with title</abbr> examples<br>
+   The <b>bold element</b> example<br>
+   The <cite>citation element</cite> example<br>
+   The <code>code element</code> example<br>
+   The <del>deleted element</del> example<br>
+   The <dfn>definition element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples<br>
+   The <em>em element</em> example<br>
+   The <i>italic element</i> example<br>
+   The image element <img src="http://placehold.it/120x25" alt="image description"> example<br>
+   The <ins>insert element</ins> example<br>
+   The <kbd>keyboard element</kbd> example<br>
+   The <mark>marked element</mark> example<br>
+   The <q>quote element <q>inside</q> a q element</q> example<br>
+   The <s>strikethrough element</s> example<br>
+   The <samp>sample element</samp> example<br>
+   The <small>small element</small> example<br>
+   The <span>span element</span> example<br>
+   The <strong>strong element</strong> example<br>
+   The <sub>sub element</sub> example<br>
+   The <sup>sup element</sup> example<br>
+   The <var>variable element</var> example<br>
+   The <u>underline element</u> example
+ </p>
+```
+*/
+
+/*doc
+---
+title: Address
+name: i-address
+category: Layout - Typography
+---
+
+```html_example
+<address>
+  <strong>Twitter, Inc.</strong><br>
+  795 Folsom Ave, Suite 600<br>
+  San Francisco, CA 94107<br>
+  <abbr title="Phone">P:</abbr> (123) 456-7890
+</address>
+
+<address>
+  <strong>Full Name</strong><br>
+  <a href="mailto:#">first.last@example.com</a>
+</address>
+```
+*/
+
+/*doc
+---
+title: List
+name: j-list
+category: Layout - Typography
+---
+
+```html_example
+<ul>
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>Consectetur adipiscing elit</li>
+  <li>
+    Integer molestie lorem at massa
+    <ul>
+      <li>Facilisis in pretium nisl aliquet</li>
+      <li>Nulla volutpat aliquam velit</li>
+    </ul>
+  </li>
+  <li>Vestibulum laoreet porttitor sem</li>
+</ul>
+```
+
+##Ordered
+
+```html_example
+<ol>
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>Consectetur adipiscing elit</li>
+  <li>
+    Integer molestie lorem at massa
+    <ol>
+      <li>Facilisis in pretium nisl aliquet</li>
+      <li>Nulla volutpat aliquam velit</li>
+    </ol>
+  </li>
+  <li>Vestibulum laoreet porttitor sem</li>
+</ol>
+```
+
+##Unstyled
+
+```html_example
+<ul class="list-unstyled">
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>Consectetur adipiscing elit</li>
+  <li>
+    Integer molestie lorem at massa
+    <ul>
+      <li>Facilisis in pretium nisl aliquet</li>
+      <li>Nulla volutpat aliquam velit</li>
+    </ul>
+  </li>
+  <li>Vestibulum laoreet porttitor sem</li>
+</ul>
+```
+
+##Inline
+
+```html_example
+<ul class="list-inline">
+  <li>Lorem</li>
+  <li>Consectetur</li>
+  <li>Vestibulum</li>
+</ul>
+```
+*/
+
+/*doc
+---
+title: Description
+name: k-description
+category: Layout - Typography
+---
+
+```html_example
+<dl>
+  <dt>Lorem</dt>
+  <dd>Ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+</dl>
+<dl>
+  <dt>Sit sane ista voluptas</dt>
+  <dd>Itaque primos congressus copulationesque.</dd>
+</dl>
+<dl>
+  <dt>Praeclare hoc quidem</dt>
+  <dd>Sit sane ista voluptas. Itaque primos congressus copulationesque et consuetudinum.</dd>
+  <dd>Praeclare hoc quidem. Quis enim potest ea, quae probabilia videantur ei.</dd>
+</dl>
+```
+
+##Horizontal description
+
+```html_example
+<dl class="dl-horizontal">
+  <dt>Lorem</dt>
+  <dd>Ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+</dl>
+<dl class="dl-horizontal">
+  <dt>Sit sane ista voluptas</dt>
+  <dd>Itaque primos congressus copulationesque.</dd>
+</dl>
+<dl class="dl-horizontal">
+  <dt>Praeclare hoc quidem</dt>
+  <dd>Sit sane ista voluptas. Itaque primos congressus copulationesque et consuetudinum.</dd>
+  <dd>Praeclare hoc quidem. Quis enim potest ea, quae probabilia videantur ei.</dd>
+</dl>
+```
+
+*/

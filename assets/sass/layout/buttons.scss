@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Buttons
+name: a-buttons
+category: Layout - Buttons
+---
+
+```html_example
+<button type="button" class="btn btn-primary">Primary</button>
+```
+
+
+| Preview                                                        | Class                      |
+|----------------------------------------------------------------|----------------------------|
+| <button type="button" class="btn btn-default">Default</button> | <pre>btn btn-default</pre> |
+| <button type="button" class="btn btn-primary">Primary</button> | <pre>btn btn-primary</pre> |
+| <button type="button" class="btn btn-success">Success</button> | <pre>btn btn-success</pre> |
+| <button type="button" class="btn btn-info">Info</button>       | <pre>btn btn-info</pre>    |
+| <button type="button" class="btn btn-warning">Warning</button> | <pre>btn btn-warning</pre> |
+| <button type="button" class="btn btn-danger">Danger</button>   | <pre>btn btn-danger</pre>  |
+| <button type="button" class="btn btn-link">Link</button>       | <pre>btn btn-link</pre>    |
+*/
+
+
+
+/*doc
+---
+title: Sizes
+name: b-size
+category: Layout - Buttons
+---
+
+```html_example
+<p>
+  <button type="button" class="btn btn-primary btn-lg">Large button</button>
+  <button type="button" class="btn btn-default btn-lg">Large button</button>
+</p>
+<p>
+  <button type="button" class="btn btn-primary">Default button</button>
+  <button type="button" class="btn btn-default">Default button</button>
+</p>
+<p>
+  <button type="button" class="btn btn-primary btn-sm">Small button</button>
+  <button type="button" class="btn btn-default btn-sm">Small button</button>
+</p>
+<p>
+  <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+  <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+</p>
+```
+
+## Block buttons
+
+```html_example
+<p>
+  <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+  <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
+</p>
+```
+*/
+
+
+/*doc
+---
+title: Active / Disabled
+name: c-active-disabled
+category: Layout - Buttons
+---
+
+```html_example
+<p>
+  <button type="button" class="btn btn-primary btn-lg active">Primary button</button>
+  <button type="button" class="btn btn-default btn-lg active">Button</button>
+</p>
+<p>
+  <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
+  <button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
+</p>
+```
+*/

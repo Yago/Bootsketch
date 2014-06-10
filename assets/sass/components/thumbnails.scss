@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Default thumbnail
+name: a-thumbnail
+category: Components - Thumbnails
+---
+
+```html_example
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://lorempixel.com/300/300/cats" alt="Some cats image">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://lorempixel.com/300/300/cats" alt="Some cats image">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://lorempixel.com/300/300/cats" alt="Some cats image">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://lorempixel.com/300/300/cats" alt="Some cats image">
+    </a>
+  </div>
+</div>
+```
+*/
+
+
+/*doc
+---
+title: Custom content
+name: b-custom-content
+category: Components - Thumbnails
+---
+
+```html_example
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="http://lorempixel.com/300/300/cats" alt="Some cats image">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid enim tanto opus est instrumento in optimis.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+```
+*/

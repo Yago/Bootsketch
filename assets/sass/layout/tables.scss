@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Basic table
+name: a-basic-table
+category: Layout - Tables
+---
+
+```html_example
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>John</td>
+      <td>Doe</td>
+      <td>@jdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Walter</td>
+      <td>Smith</td>
+      <td>@wsm</td>
+    </tr>
+  </tbody>
+</table>
+```
+*/
+
+/*doc
+---
+title: Striped table
+name: b-striped-table
+category: Layout - Tables
+---
+
+```html_example
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>John</td>
+      <td>Doe</td>
+      <td>@jdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Walter</td>
+      <td>Smith</td>
+      <td>@wsm</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Edmure</td>
+      <td>Fish</td>
+      <td>@tul</td>
+    </tr>
+  </tbody>
+</table>
+```
+*/
+
+/*doc
+---
+title: Bordered table
+name: c-bordered-table
+category: Layout - Tables
+---
+
+```html_example
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>John</td>
+      <td>Doe</td>
+      <td>@jdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Walter</td>
+      <td>Smith</td>
+      <td>@wsm</td>
+    </tr>
+  </tbody>
+</table>
+```
+*/
+
+/*doc
+---
+title: Hover table
+name: d-hover-table
+category: Layout - Tables
+---
+
+```html_example
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>John</td>
+      <td>Doe</td>
+      <td>@jdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Walter</td>
+      <td>Smith</td>
+      <td>@wsm</td>
+    </tr>
+  </tbody>
+</table>
+```
+*/
+
+/*doc
+---
+title: Condensed table
+name: e-condensed-table
+category: Layout - Tables
+---
+
+```html_example
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>John</td>
+      <td>Doe</td>
+      <td>@jdo</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Walter</td>
+      <td>Smith</td>
+      <td>@wsm</td>
+    </tr>
+  </tbody>
+</table>
+```
+*/
+
+/*doc
+---
+title: Highlight table
+name: f-highlight-table
+category: Layout - Tables
+---
+
+```html_example
+<table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Column heading</th>
+          <th>Column heading</th>
+          <th>Column heading</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="active">
+          <td>1</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="success">
+          <td>3</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="info">
+          <td>5</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="warning">
+          <td>7</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="danger">
+          <td>9</td>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+      </tbody>
+    </table>
+```
+*/

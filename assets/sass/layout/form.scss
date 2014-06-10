@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Input
+name: a-input
+category: Layout - Form
+---
+
+```html_example
+<input type="text" class="form-control input-lg" placeholder="Text input"><br>
+<input type="text" class="form-control" placeholder="Text input"><br>
+<input type="text" class="form-control input-sm" placeholder="Text input"><br>
+<input type="text" class="form-control" placeholder="Text input" disabled>
+```
+*/
+
+
+
+/*doc
+---
+title: Textarea
+name: a-textarea
+category: Layout - Form
+---
+
+```html_example
+<textarea class="form-control" rows="3"></textarea>
+```
+*/
+
+
+
+/*doc
+---
+title: Checkboxes and radios
+name: b-checkbox-radio
+category: Layout - Form
+---
+
+```html_example
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="">
+    Option one is this and that&mdash;be sure to include why it's great
+  </label>
+</div>
+
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    Option one is this and that&mdash;be sure to include why it's great
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+    Option two can be something else and selecting it will deselect option one
+  </label>
+</div>
+```
+*/
+
+
+/*doc
+---
+title: Inline checkboxes
+name: c-inline-checkbox
+category: Layout - Form
+---
+
+```html_example
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+</label>
+```
+*/
+
+
+/*doc
+---
+title: Selects
+name: d-select
+category: Layout - Form
+---
+
+```html_example
+<select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+
+<br>
+
+<select multiple class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+```
+*/
+
+
+/*doc
+---
+title: Static control
+name: e-static
+category: Layout - Form
+---
+
+```html_example
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <p class="form-control-static">email@example.com</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+</form>
+```
+*/
+
+
+
+/*doc
+---
+title: Basic form
+name: i-basic-form
+category: Layout - Form
+---
+
+```html_example
+<form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+```
+*/
+
+
+
+/*doc
+---
+title: Inline form
+name: j-inline-form
+category: Layout - Form
+---
+
+```html_example
+<form class="form-inline" role="form">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword2">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign in</button>
+</form>
+```
+*/
+
+
+
+/*doc
+---
+title: Horizontal form
+name: k-horizontal-form
+category: Layout - Form
+---
+
+```html_example
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form>
+```
+*/
+
+/*doc
+---
+title: Validations
+name: l-validation
+category: Layout - Form
+---
+
+```html_example
+<div class="form-group has-success has-feedback">
+  <label class="control-label" for="inputSuccess2">Input with success</label>
+  <input type="text" class="form-control" id="inputSuccess2">
+  <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+</div>
+<div class="form-group has-warning has-feedback">
+  <label class="control-label" for="inputWarning2">Input with warning</label>
+  <input type="text" class="form-control" id="inputWarning2">
+  <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+</div>
+<div class="form-group has-error has-feedback">
+  <label class="control-label" for="inputError2">Input with error</label>
+  <input type="text" class="form-control" id="inputError2">
+  <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+</div>
+```
+*/

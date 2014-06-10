@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Buttons
+name: a-buttons
+category: JavaScript - Buttons JS
+---
+
+```html_example
+<button type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-primary">
+  Loading state
+</button>
+
+<script>
+  $('#loading-example-btn').click(function () {
+    var btn = $(this)
+    btn.button('loading')
+    $.ajax(...).always(function () {
+      btn.button('reset')
+    });
+  });
+</script>
+```
+*/
+
+
+
+/*doc
+---
+title: Single toggle
+name: b-single-toggle
+category: JavaScript - Buttons JS
+---
+
+```html_example
+<button type="button" class="btn btn-primary" data-toggle="button">Single toggle</button>
+```
+*/
+
+
+
+/*doc
+---
+title: Checkbox
+name: c-checkbox
+category: JavaScript - Buttons JS
+---
+
+```html_example
+<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary">
+    <input type="checkbox"> Option 1
+  </label>
+  <label class="btn btn-primary">
+    <input type="checkbox"> Option 2
+  </label>
+  <label class="btn btn-primary">
+    <input type="checkbox"> Option 3
+  </label>
+</div>
+```
+*/
+
+
+
+/*doc
+---
+title: Radio
+name: d-radio
+category: JavaScript - Buttons JS
+---
+
+```html_example
+<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary">
+    <input type="radio"> Option 1
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio"> Option 2
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio"> Option 3
+  </label>
+</div>
+```
+*/
