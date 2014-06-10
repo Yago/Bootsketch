@@ -50,7 +50,7 @@ category: Layout - Buttons
   &:hover, &:focus, &:active, &.active {
     @include dark-hatching();
     border-color: $black;
-    background-color: darken(#7a7a7a, 5%)
+    background-color: darken(#7a7a7a, 5%) !important;
   }
 }
 

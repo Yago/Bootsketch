@@ -40,6 +40,12 @@ category: Components - Navbar
   @include light-hatching();
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .dorpdown.open {
+  @include light-hatching();
+  color: #555;
+  background-color: #e7e7e7;
+}
+
 
 /*doc
 ---
