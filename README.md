@@ -9,6 +9,7 @@ Just download the repo and use the `wirestrap.css` locate in `build/css/`
 ## Contribution
 
 You will need :
+
 * Node -> [npm](npmjs.org)
 * [Bower](bower.io)
 * and [Hologram](https://github.com/trulia/hologram) to regenerate the styleguide
