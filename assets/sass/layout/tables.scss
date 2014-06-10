@@ -35,6 +35,8 @@ category: Layout - Tables
 ```
 */
 
+
+
 /*doc
 ---
 title: Striped table
@@ -75,6 +77,11 @@ category: Layout - Tables
 </table>
 ```
 */
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+  @include light-hatching();
+}
+
 
 /*doc
 ---

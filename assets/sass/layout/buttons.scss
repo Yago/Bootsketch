@@ -9,6 +9,7 @@ category: Layout - Buttons
 
 ```html_example
 <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-default">Primary</button>
 ```
 
 
@@ -22,6 +23,36 @@ category: Layout - Buttons
 | <button type="button" class="btn btn-danger">Danger</button>   | <pre>btn btn-danger</pre>  |
 | <button type="button" class="btn btn-link">Link</button>       | <pre>btn btn-link</pre>    |
 */
+
+.btn:focus, .btn:active {
+  outline: none !important;
+}
+
+.btn-default {
+  @include light-hatching();
+  border-color: $silver;
+  &[disabled] {
+    background-color: lighten(#f9f9f9, 2%);
+  }
+  &:hover, &:focus, &:active, &.active {
+    @include light-hatching();
+    border-color: $silver;
+    background-color: darken(#f9f9f9, 2%)
+  }
+}
+
+.btn-primary {
+  @include dark-hatching();
+  border-color: $black;
+  &[disabled] {
+    background-color: lighten(#7a7a7a, 5%) !important;
+  }
+  &:hover, &:focus, &:active, &.active {
+    @include dark-hatching();
+    border-color: $black;
+    background-color: darken(#7a7a7a, 5%)
+  }
+}
 
 
 
