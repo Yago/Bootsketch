@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
 @import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700);
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot?v2');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/glyphicons-halflings-regular.woff?v2') format('woff'),
+         url('../fonts/glyphicons-halflings-regular.ttf?v2') format('truetype'),
+         url('../fonts/glyphicons-halflings-regular.svg#glyph') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 // Init ------------------------------------
 @import 'wirestrap-mixins';

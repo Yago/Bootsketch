@@ -5,7 +5,7 @@ documentation_assets: bower_components/Cortana
 dependencies:
   - build/js
   - build/css
-  - bower_components/bootstrap-sass-official/vendor/assets/fonts
+  - build/fonts
 
 # To have a custom index page build with your README.md
 index: README

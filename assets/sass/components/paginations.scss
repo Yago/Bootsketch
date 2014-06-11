@@ -42,6 +42,36 @@ category: Components - Pagination
 ```
 */
 
+.pagination>li>a,
+.pagination>li>span {
+  color: $mine;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>span {
+  color: lighten($silver, 10%) !important;
+  background: transparent !important;
+}
+
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  @include light-hatching();
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  @include dark-hatching();
+  border: 1px solid $mine;
+}
+
+
+
 
 
 /*doc
