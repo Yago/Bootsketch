@@ -326,3 +326,12 @@ category: Layout - Typography
 ```
 
 */
+
+
+.light-hatching {
+  @include light-hatching();
+}
+
+.dark-hatching {
+  @include dark-hatching();
+}
