@@ -14,6 +14,8 @@ $ gem build hologram.gemspec
 $ gem install hologram-1.0.1.gem
 ````
 
+
+
 To install **Cortana**, use Bower :
 
 ````

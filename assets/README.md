@@ -1,10 +1,12 @@
-# Wirestrap : wireframe theme for TWBS3
+# Bootsketch : wireframe theme for TWBS3
 
-Wirestrap is a little [Bootstrap](https://github.com/twbs/bootstrap-sass) theme for wireframing web project. Unlike the Bootstrap base theme, Wirestrap provide a sketch render to remove all "design feeling" when we present it to client or during user test.
+Bootsketch is a little [Bootstrap](https://github.com/twbs/bootstrap-sass) theme for wireframing web project. Unlike the Bootstrap base theme, Bootsketch provide a sketch render to remove all "design feeling" when we present it to client or during user test.
+
+**[Demo](http://yago.github.io/Bootsketch/)**
 
 ## Usage
 
-Just download the repo and use the `wirestrap.css` locate in `build/css/`
+Just download the repo and use the `bootsketch.css` locate in `build/css/` and `build/fonts/` for icons.
 
 ## Contribution
 

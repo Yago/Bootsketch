@@ -12,7 +12,7 @@ index: README
 
 # List all css to include for the styleguide render examples
 css_include:
-  - 'css/wirestrap.css'
+  - 'css/bootsketch.css'
 
 # List all js to include for the styleguide render examples
 js_include:

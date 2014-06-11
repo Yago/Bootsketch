@@ -38,7 +38,7 @@ gulp.task('vendors', function() {
 
 
 gulp.task('styles', function() {
-  return gulp.src('assets/sass/wirestrap.scss')
+  return gulp.src('assets/sass/bootsketch.scss')
     .pipe(sass())
       .on('error', gutil.beep)
       .on('error', notify.onError("Error: <%= error.message %>"))
