@@ -21,6 +21,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+h1 {
+  @media only screen and (max-width: $screen-md-max) {font-size: $font-size-h1 / 1.1;}
+  @media only screen and (max-width: $screen-sm-max) {font-size: $font-size-h1 / 1.3;}
+}
+
+h2 {
+  @media only screen and (max-width: $screen-md-max) {font-size: $font-size-h2 / 1.1;}
+  @media only screen and (max-width: $screen-sm-max) {font-size: $font-size-h2 / 1.3;}
+}
+
+h3 {
+  @media only screen and (max-width: $screen-md-max) {font-size: $font-size-h3 / 1.1;}
+  @media only screen and (max-width: $screen-sm-max) {font-size: $font-size-h3 / 1.3;}
+}
+
+h4 {
+  @media only screen and (max-width: $screen-md-max) {font-size: $font-size-h4 / 1.1;}
+  @media only screen and (max-width: $screen-sm-max) {font-size: $font-size-h4 / 1.3;}
+}
+
+h5 {
+  @media only screen and (max-width: $screen-md-max) {font-size: $font-size-h5 / 1.1;}
+  @media only screen and (max-width: $screen-sm-max) {font-size: $font-size-h5 / 1.3;}
+}
+
 
 /*doc
 ---
