@@ -6,7 +6,13 @@ Bootsketch is a little [Bootstrap](https://github.com/twbs/bootstrap-sass) theme
 
 ## Usage
 
+**Manually :**
 Just download the repo and use the `bootsketch.css` locate in `build/css/` and `build/fonts/` for icons.
+
+**With Bower :**
+```
+$ bower install bootsketch
+```
 
 ## Contribution
 
