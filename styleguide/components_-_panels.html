@@ -136,9 +136,6 @@
         
         
       
-        
-        
-      
 
       <nav class="cortana-nav">
         <ul>
@@ -174,6 +171,11 @@
           
             
           
+            
+              
+              
+                <li><a href="javascript_-_buttons_js.html">Buttons JS</a></li>
+              
             
           
             
@@ -242,11 +244,6 @@
             
           
             
-              
-              
-                <li><a href="javascript_-_tabs.html">Tabs</a></li>
-              
-            
           
             
           
@@ -261,13 +258,6 @@
           
             
           
-            
-          
-            
-              
-              
-                <li><a href="javascript_-_buttons_js.html">Buttons JS</a></li>
-              
             
           
           </ul>
@@ -402,6 +392,11 @@
             
           
             
+              
+              
+                <li><a href="components_-_nav.html">Nav</a></li>
+              
+            
           
             
               
@@ -418,13 +413,6 @@
               
               
                 <li><a href="components_-_well.html">Well</a></li>
-              
-            
-          
-            
-              
-              
-                <li><a href="components_-_nav.html">Nav</a></li>
               
             
           
@@ -454,11 +442,6 @@
           
             
           
-            
-              
-              
-                <li><a href="layout_-_buttons.html">Buttons</a></li>
-              
             
           
             
@@ -542,7 +525,10 @@
             
           
             
-          
+              
+              
+                <li><a href="layout_-_buttons.html">Buttons</a></li>
+              
             
           
           </ul>
@@ -582,10 +568,6 @@
               
              
               
-                <li><a href="#d-contextual">Contextual</a></li>
-              
-             
-              
                 <li><a href="#e-panel-table">Panel with table</a></li>
               
              
@@ -601,20 +583,31 @@
 
 
 
-<h1 id="a-panel">Basic panel</h1>
-<div class="codeExample"><div class="exampleOutput"><div class="panel panel-default">
+<h1 id="a-panel" class="styleguide">Basic panel</h1>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <div class="panel panel-default">
   <div class="panel-body">
     Basic panel example
   </div>
 </div>
-</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-default&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
     Basic panel example
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</pre></div></div></div>
-<h1 id="b-panel-heading">Panel with heading</h1>
-<div class="codeExample"><div class="exampleOutput"><div class="panel panel-default">
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="b-panel-heading" class="styleguide">Panel with heading</h1>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <div class="panel panel-default">
   <div class="panel-heading">Panel heading without title</div>
   <div class="panel-body">
     Panel content
@@ -629,108 +622,56 @@
     Panel content
   </div>
 </div>
-</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-default&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-heading&quot;</span><span class="nt">&gt;</span>Panel heading without title<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>Panel heading without title<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
     Panel content
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-default&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-heading&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">&quot;panel-title&quot;</span><span class="nt">&gt;</span>Panel title<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">&gt;</span>Panel title<span class="nt">&lt;/h3&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
     Panel content
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</pre></div></div></div>
-<h1 id="c-panel-footer">Panel with footer</h1>
-<div class="codeExample"><div class="exampleOutput"><div class="panel panel-default">
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="c-panel-footer" class="styleguide">Panel with footer</h1>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <div class="panel panel-default">
   <div class="panel-body">
     Panel content
   </div>
   <div class="panel-footer">Panel footer</div>
 </div>
-</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-default&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
     Panel content
   <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-footer&quot;</span><span class="nt">&gt;</span>Panel footer<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</pre></div></div></div>
-<h1 id="d-contextual">Contextual</h1>
-<div class="codeExample"><div class="exampleOutput"><div class="panel panel-primary">
-  <div class="panel-heading">Panel heading without title</div>
-  <div class="panel-body">
-    Panel content
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-footer"</span><span class="nt">&gt;</span>Panel footer<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
   </div>
 </div>
 
-<div class="panel panel-success">
-  <div class="panel-heading">Panel heading without title</div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-
-<div class="panel panel-info">
-  <div class="panel-heading">Panel heading without title</div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-
-<div class="panel panel-warning">
-  <div class="panel-heading">Panel heading without title</div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-
-<div class="panel panel-danger">
-  <div class="panel-heading">Panel heading without title</div>
-  <div class="panel-body">
-    Panel content
-  </div>
-</div>
-</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-primary&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-heading&quot;</span><span class="nt">&gt;</span>Panel heading without title<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
-    Panel content
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-success&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-heading&quot;</span><span class="nt">&gt;</span>Panel heading without title<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
-    Panel content
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-info&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-heading&quot;</span><span class="nt">&gt;</span>Panel heading without title<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
-    Panel content
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-warning&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-heading&quot;</span><span class="nt">&gt;</span>Panel heading without title<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
-    Panel content
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-danger&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-heading&quot;</span><span class="nt">&gt;</span>Panel heading without title<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
-    Panel content
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</pre></div></div></div>
-<h1 id="e-panel-table">Panel with table</h1>
-<div class="codeExample"><div class="exampleOutput"><div class="panel panel-default">
+<h1 id="e-panel-table" class="styleguide">Panel with table</h1>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <div class="panel panel-default">
   <div class="panel-heading">Panel heading</div>
   <table class="table">
     <thead>
@@ -763,9 +704,13 @@
     </tbody>
   </table>
 </div>
-</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-default&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-heading&quot;</span><span class="nt">&gt;</span>Panel heading<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">&quot;table&quot;</span><span class="nt">&gt;</span>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>Panel heading<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;thead&gt;</span>
       <span class="nt">&lt;tr&gt;</span>
         <span class="nt">&lt;th&gt;</span>#<span class="nt">&lt;/th&gt;</span>
@@ -795,10 +740,15 @@
       <span class="nt">&lt;/tr&gt;</span>
     <span class="nt">&lt;/tbody&gt;</span>
   <span class="nt">&lt;/table&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</pre></div></div></div>
-<h1 id="f-panel-list">Panel with list</h1>
-<div class="codeExample"><div class="exampleOutput"><div class="panel panel-default">
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="f-panel-list" class="styleguide">Panel with list</h1>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <div class="panel panel-default">
   <div class="panel-heading">Panel heading</div>
   <div class="panel-body">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid igitur, inquit, eos responsuros putas? Sed residamus.</p>
@@ -811,20 +761,27 @@
     <li class="list-group-item">Vestibulum at eros</li>
   </ul>
 </div>
-</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel panel-default&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-heading&quot;</span><span class="nt">&gt;</span>Panel heading<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;panel-body&quot;</span><span class="nt">&gt;</span>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>Panel heading<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid igitur, inquit, eos responsuros putas? Sed residamus.<span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-group&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Cras justo odio<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Dapibus ac facilisis in<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Morbi leo risus<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Porta ac consectetur ac<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>Vestibulum at eros<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-group"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"list-group-item"</span><span class="nt">&gt;</span>Cras justo odio<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"list-group-item"</span><span class="nt">&gt;</span>Dapibus ac facilisis in<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"list-group-item"</span><span class="nt">&gt;</span>Morbi leo risus<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"list-group-item"</span><span class="nt">&gt;</span>Porta ac consectetur ac<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"list-group-item"</span><span class="nt">&gt;</span>Vestibulum at eros<span class="nt">&lt;/li&gt;</span>
   <span class="nt">&lt;/ul&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</pre></div></div></div>      </div>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+      </div>
     </div>
 
     <footer class="cortana-footer">
@@ -1059,27 +1016,36 @@
             
             {
             "title": "Buttons",
-            "breadcrumb": "Layout - Buttons > Buttons",
-            "path": "layout_-_buttons.html#a-buttons",
-            "tokens": ["Layout - Buttons","Buttons"]
+            "breadcrumb": "JavaScript - Buttons JS > Buttons",
+            "path": "javascript_-_buttons_js.html#a-buttons",
+            "tokens": ["JavaScript - Buttons JS","Buttons"]
             },
           
             
             
             {
-            "title": "Sizes",
-            "breadcrumb": "Layout - Buttons > Sizes",
-            "path": "layout_-_buttons.html#b-size",
-            "tokens": ["Layout - Buttons","Sizes"]
+            "title": "Single toggle",
+            "breadcrumb": "JavaScript - Buttons JS > Single toggle",
+            "path": "javascript_-_buttons_js.html#b-single-toggle",
+            "tokens": ["JavaScript - Buttons JS","Single toggle"]
             },
           
             
             
             {
-            "title": "Active / Disabled",
-            "breadcrumb": "Layout - Buttons > Active / Disabled",
-            "path": "layout_-_buttons.html#c-active-disabled",
-            "tokens": ["Layout - Buttons","Active / Disabled"]
+            "title": "Checkbox",
+            "breadcrumb": "JavaScript - Buttons JS > Checkbox",
+            "path": "javascript_-_buttons_js.html#c-checkbox",
+            "tokens": ["JavaScript - Buttons JS","Checkbox"]
+            },
+          
+            
+            
+            {
+            "title": "Radio",
+            "breadcrumb": "JavaScript - Buttons JS > Radio",
+            "path": "javascript_-_buttons_js.html#d-radio",
+            "tokens": ["JavaScript - Buttons JS","Radio"]
             },
           
         
@@ -1161,15 +1127,6 @@
             "tokens": ["Components - Pagination","Active - Disabled"]
             },
           
-            
-            
-            {
-            "title": "Sizes",
-            "breadcrumb": "Components - Pagination > Sizes",
-            "path": "components_-_pagination.html#c-sizes",
-            "tokens": ["Components - Pagination","Sizes"]
-            },
-          
         
       
         
@@ -1212,6 +1169,24 @@
             "breadcrumb": "Components - Button Groups > Group",
             "path": "components_-_button_groups.html#a-group",
             "tokens": ["Components - Button Groups","Group"]
+            },
+          
+            
+            
+            {
+            "title": "Sizes",
+            "breadcrumb": "Components - Button Groups > Sizes",
+            "path": "components_-_button_groups.html#b-sizes",
+            "tokens": ["Components - Button Groups","Sizes"]
+            },
+          
+            
+            
+            {
+            "title": "With dropdown",
+            "breadcrumb": "Components - Button Groups > With dropdown",
+            "path": "components_-_button_groups.html#c-with-dropdown",
+            "tokens": ["Components - Button Groups","With dropdown"]
             },
           
         
@@ -1399,6 +1374,15 @@
             
             
             {
+            "title": "Sizes",
+            "breadcrumb": "Components - Input groups > Sizes",
+            "path": "components_-_input_groups.html#c-sizes",
+            "tokens": ["Components - Input groups","Sizes"]
+            },
+          
+            
+            
+            {
             "title": "Checkbox-Radio addon",
             "breadcrumb": "Components - Input groups > Checkbox-Radio addon",
             "path": "components_-_input_groups.html#d-checkbox-addon",
@@ -1492,6 +1476,15 @@
             
             
             {
+            "title": "Contextual",
+            "breadcrumb": "Components - List group > Contextual",
+            "path": "components_-_list_group.html#d-contextual",
+            "tokens": ["Components - List group","Contextual"]
+            },
+          
+            
+            
+            {
             "title": "Custom content",
             "breadcrumb": "Components - List group > Custom content",
             "path": "components_-_list_group.html#e-custom-content",
@@ -1531,15 +1524,6 @@
             "breadcrumb": "JavaScript - Modal > Modal",
             "path": "javascript_-_modal.html#a-modal",
             "tokens": ["JavaScript - Modal","Modal"]
-            },
-          
-            
-            
-            {
-            "title": "Sizes",
-            "breadcrumb": "JavaScript - Modal > Sizes",
-            "path": "javascript_-_modal.html#b-sizes",
-            "tokens": ["JavaScript - Modal","Sizes"]
             },
           
         
@@ -1625,15 +1609,6 @@
             
             
             {
-            "title": "Contextual",
-            "breadcrumb": "Components - Panels > Contextual",
-            "path": "components_-_panels.html#d-contextual",
-            "tokens": ["Components - Panels","Contextual"]
-            },
-          
-            
-            
-            {
             "title": "Panel with table",
             "breadcrumb": "Components - Panels > Panel with table",
             "path": "components_-_panels.html#e-panel-table",
@@ -1683,9 +1658,18 @@
             
             {
             "title": "Tabs",
-            "breadcrumb": "JavaScript - Tabs > Tabs",
-            "path": "javascript_-_tabs.html#a-tabs",
-            "tokens": ["JavaScript - Tabs","Tabs"]
+            "breadcrumb": "Components - Nav > Tabs",
+            "path": "components_-_nav.html#a-tabs",
+            "tokens": ["Components - Nav","Tabs"]
+            },
+          
+            
+            
+            {
+            "title": "Pills",
+            "breadcrumb": "Components - Nav > Pills",
+            "path": "components_-_nav.html#b-pills",
+            "tokens": ["Components - Nav","Pills"]
             },
           
         
@@ -1846,50 +1830,19 @@
             
             
             {
-            "title": "Pills",
-            "breadcrumb": "Components - Nav > Pills",
-            "path": "components_-_nav.html#b-pills",
-            "tokens": ["Components - Nav","Pills"]
+            "title": "Sizes",
+            "breadcrumb": "Layout - Buttons > Sizes",
+            "path": "layout_-_buttons.html#b-size",
+            "tokens": ["Layout - Buttons","Sizes"]
             },
           
             
             
             {
-            "title": "With dropdown",
-            "breadcrumb": "Components - Nav > With dropdown",
-            "path": "components_-_nav.html#c-with-dropdown",
-            "tokens": ["Components - Nav","With dropdown"]
-            },
-          
-        
-      
-        
-          
-            
-            
-            {
-            "title": "Single toggle",
-            "breadcrumb": "JavaScript - Buttons JS > Single toggle",
-            "path": "javascript_-_buttons_js.html#b-single-toggle",
-            "tokens": ["JavaScript - Buttons JS","Single toggle"]
-            },
-          
-            
-            
-            {
-            "title": "Checkbox",
-            "breadcrumb": "JavaScript - Buttons JS > Checkbox",
-            "path": "javascript_-_buttons_js.html#c-checkbox",
-            "tokens": ["JavaScript - Buttons JS","Checkbox"]
-            },
-          
-            
-            
-            {
-            "title": "Radio",
-            "breadcrumb": "JavaScript - Buttons JS > Radio",
-            "path": "javascript_-_buttons_js.html#d-radio",
-            "tokens": ["JavaScript - Buttons JS","Radio"]
+            "title": "Active / Disabled",
+            "breadcrumb": "Layout - Buttons > Active / Disabled",
+            "path": "layout_-_buttons.html#c-active-disabled",
+            "tokens": ["Layout - Buttons","Active / Disabled"]
             },
           
         
