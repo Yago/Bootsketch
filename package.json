@@ -1,11 +1,9 @@
 {
   "name": "bootsketch",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.1",
   "author": "Yann Gouffon",
   "license": "MIT",
+  "repository": "Yago/Bootsketch",
   "devDependencies": {
     "gulp-util": "~2.2.14",
     "gulp": "~3.6.2",
