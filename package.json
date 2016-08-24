@@ -5,19 +5,20 @@
   "license": "MIT",
   "repository": "Yago/Bootsketch",
   "devDependencies": {
-    "gulp-util": "~2.2.14",
-    "gulp": "~3.6.2",
-    "gulp-shell": "~0.2.5",
+    "gulp-util": "~3.0.7",
+    "gulp": "~3.9.1",
+    "gulp-shell": "~0.5.2",
     "gulp-rename": "~1.2.0",
-    "gulp-concat": "~2.2.0",
-    "jshint-stylish": "~0.2.0",
-    "gulp-clean": "~0.2.4",
-    "gulp-minify-css": "~0.3.4",
-    "gulp-ruby-sass": "~0.5.0",
-    "gulp-uglify": "~0.3.0",
-    "gulp-autoprefixer": "0.0.7",
-    "gulp-notify": "~1.2.5",
-    "gulp-jshint": "~1.6.1",
-    "browser-sync": "~0.9.1"
+    "gulp-concat": "~2.6.0",
+    "jshint-stylish": "~2.2.1",
+    "gulp-clean": "~0.3.2",
+    "gulp-minify-css": "~1.2.4",
+    "gulp-ruby-sass": "~2.1.0",
+    "gulp-uglify": "~2.0.0",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-notify": "~2.2.0",
+    "gulp-jshint": "~2.0.1",
+    "browser-sync": "~2.14.0",
+    "jshint": "^2.9.3"
   }
 }
