@@ -8,7 +8,7 @@ dependencies:
   - build/fonts
 
 # To have a custom index page build with your README.md
-index: README
+# index: README
 
 # List all css to include for the styleguide render examples
 css_include:
