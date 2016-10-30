@@ -1,0 +1,11 @@
+{
+  "app": {
+    "env": "dev",
+    "basedir": "build",
+    "ghpages": "build"
+  },
+  "tasks":  "./tasks/",
+  "assets": "assets/",
+  "build": "build/",
+  "browsers": ["last 2 versions"]
+}
